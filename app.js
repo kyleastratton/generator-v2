@@ -109,7 +109,6 @@ function generatePassword(length) {
    return result;
 }
 
-
 const password = generatePassword(12);
 console.log(password);
 
