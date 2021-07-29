@@ -50,22 +50,8 @@ console.log("surname: " + surname.length); // Output = 635
 
 // TODO HEADING NUMBERS
 
-// TODO HEADING Number generator logic
 
-function generateNumber(x) {
-    x = 1000
-    return Math.floor(Math.random() * x);
-}
-
-const generatedNumber = generateNumber(1000);
-console.log(generatedNumber);
-
-function assignNumber() {
-    document.getElementById("number").value = generatedNumber;
-}
-
-
-// TODO HEADING Test - Another Number Generator
+// TODO HEADING Test Number Generator
 function getRndInteger1(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -74,8 +60,16 @@ function generateNumber1() {
     document.getElementById('anothernumber').value = getRndInteger1(0,1000);
 }
 
+// TODO HEADING Copy button - Numers
 
-// TODO HEADING Copy button
+function copynumber() {
+    var copyText = document.getElementById("anothernumber");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+  }
+
+// TODO HEADING Copy button - Name
 
 function copyname() {
     var copyText = document.getElementById("fullname");

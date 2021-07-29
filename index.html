@@ -9,12 +9,14 @@
 </head>
 <body>
 
+<h1 id="title">Welcome to Generator!</h1>
+
 <div id="maincontainer" class="flex-container">
 
     <script src="app.js"></script>
 
     <div class="namecontainer1">
-        <h1>Name Generator</h1>
+        <h2>Name Generator</h1>
 
         <div id="card1">
             Male Name: <input class ="textbox" type="text" id="fullname" value="John Doe">
@@ -25,36 +27,36 @@
     </div>    
 
     <div class="numbercontainer2">
-        <h1>Random Number Generator</h1>
+        <h2>Number Generator</h1>
 
         <div id="card2">
-            Number: <input class="textbox" type="text" id="number" value="0">
-            <button class="button" onclick=assignNumber()>Generate</button>
-        </div>
-
-    </div>
-
-    <div class="numbercontainer2">
-        <h1>Another Number Generator</h1>
-
-        <div id="card3">
             Number: <input class="textbox" type="text" id="anothernumber" value="0">
             <button class="button" onclick=generateNumber1()>Generate</button>
+            <button class="button" onclick="copynumber()">Copy</button>
+            <br>
+            <br>
+            <br>
         </div>    
 
     </div>
 
-</div>
+    <div class="passwordcontainer1">
+        <h2>Password Generator</h1>
 
-<div class="passwordcontainer">
-    <h1>Password Generator</h1>
+        <div id="card3">
+            Password: <input class=textbox" type="text" id="generatedPassword" value="0">
+            <button class="button" onclick=assignValue()>Generate</button>
+            <button class="button" onclick="copypassword()">Copy</button>
+        </div>
 
-    <div>
-        Password: <input class=textbox" type="text" id="generatedPassword" value="0">
-        <button class="button" onclick=assignValue()>Generate</button>
-        <button class="button" onclick="copypassword()">Copy</button>
     </div>
+
 </div>
 
 </body>
+
+<footer>
+    <p id="footer-text">Design by: Kyle Stratton</p>
+</footer>
+
 </html>

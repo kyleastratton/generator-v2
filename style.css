@@ -6,7 +6,54 @@ body {
 
 h1 {
     color: #e53265;
+}
+
+h2 {
+    color: #e53265;
+}
+
+#title {
+    text-align-last: center;
+}
+
+.textbox {
     padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+    padding: 2%;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.namecontainer1 {
+    border: solid;
+    border-radius: 10px;
+    width: 28%;
+    padding: 1%;
+    text-align: center;
+}
+
+.numbercontainer2 {
+    border: solid;
+    border-radius: 10px;
+    width: 28%;
+    padding: 1%;
+    text-align: center;
+}
+
+.passwordcontainer1 {
+    border: solid;
+    border-radius: 10px;
+    width: 28%;
+    padding: 1%;
+    text-align: center;
 }
 
 .button {
@@ -20,58 +67,18 @@ h1 {
     font-size:14px;
 }
 
-.textbox {
-    padding: 5px;
+P {
+    padding: 1%;
 }
 
-.flex-container {
-    display: flex;
-    margin: 10px;
-    padding: 20px;
-    align-content: center;
+#footer-text {
+    text-align: center;
 }
 
-.namecontainer1 {
-    border: white;
-    width: 30%;
-    padding: 2%;
-}
-
-.numbercontainer1 {
-    border: white;  
-    width: 30%;
-    padding: 2%;
-}
-
-.numbercontainer2 {
-    border: white;
-    width: 30%;
-    padding: 2%;
-}
-
-.passwordcontainer {
-    border: white;
-    width: 20%;
-    margin: 20px;
-    padding: 35px;
-}
-
-#card1 {
-    border: 2px;
-}
-
-#card2 {
-    border: 2px;
-}
-
-#card3 {
-    border: 2px;
-}
-
-#test {
-    display: none;
-}
-
-#malename #femalename #surname {
-    text-decoration: black;
-}
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background:#11121D;
+ }
