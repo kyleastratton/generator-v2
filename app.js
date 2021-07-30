@@ -115,4 +115,11 @@ function copypassword() {
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-  }
+}
+
+// TODO HEADING - Dark/Light Mode
+
+function changeDisplay() {
+    var element = document.body;
+    element.classList.toggle("light-mode")
+}
