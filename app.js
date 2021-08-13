@@ -108,6 +108,17 @@ const applePass = password1 + "-" + password2 + "-" + password3;
 console.log("Apple Stype Password:" + applePass);
 //console.log(password1 + "-" + password2 + "-" + password3)
 
+function assignApplePass() {
+    document.getElementById("generatedApplePass").value = applePass;
+}
+  
+function copyApplePass() {
+    var copyText = document.getElementById("generatedApplePass");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
+
 // TODO APPLE PASSWORD END
 
 function assignValue() {
