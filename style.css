@@ -1,5 +1,5 @@
 body {
-  background-color: #e1e2e2;
+  background-color: #f2f2f2;
   color: #edf5e1;
   font-family: Roboto Condensed;
   font-size: 16px;
@@ -45,7 +45,7 @@ h2 {
 
 .namecontainer {
   border: solid #edf5e1;
-  background-color: #1d2228;
+  background-color: #11121d;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -55,7 +55,7 @@ h2 {
 
 .numbercontainer {
   border: solid #edf5e1;
-  background-color: #1d2228;
+  background-color: #11121d;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -65,7 +65,7 @@ h2 {
 
 .passwordcontainer {
   border: solid #edf5e1;
-  background-color: #1d2228;
+  background-color: #11121d;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -75,7 +75,7 @@ h2 {
 
 .addresscontainer {
   border: solid #edf5e1;
-  background-color: #1d2228;
+  background-color: #11121d;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -85,7 +85,7 @@ h2 {
 
 .applepasscontainer {
   border: solid #edf5e1;
-  background-color: #1d2228;
+  background-color: #11121d;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -95,7 +95,7 @@ h2 {
 
 .test {
   border: solid #edf5e1;
-  background-color: #1d2228;
+  background-color: #11121d;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -104,7 +104,7 @@ h2 {
 }
 
 .button {
-  background-color: #fb8122;
+  background-color: #e53265;
   border: none;
   color: white;
   padding: 8px 16px;

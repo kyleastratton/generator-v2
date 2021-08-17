@@ -6,62 +6,14 @@ const firstName = ['Adam', 'Aaron', 'Alexander', 'Andrew', 'Arthur', 'Abraham', 
 
 const surname = ['Smith', 'Johnson', 'Williams', 'Jones', 'Garcia', 'Miller', 'David', 'Rodriguez', 'Martinez', 'Wilson', 'Anderson', 'Thomas', 'Tayler', 'Moore', 'Martin', 'Harris', 'Sanchez', 'Lewis', 'Robinson', 'Walker', 'Young', 'Allen', 'King', 'Wright', 'Scott', 'Forbes', 'Green', 'White', 'Black', 'Adams', 'MacDonald', 'McDonald', 'Dunn', 'Nelson', 'Baker', 'Hall', 'Campbell', 'Mitchell', 'Richardson', 'Brown', 'Turner', 'Diaz', 'Edwards', 'Collins', 'Stewart', 'Robertson', 'Murphy', 'Morris', 'Cook', 'Rogers', 'Cooper', 'Reed', 'Reid', 'Ward', 'Wood', 'Benne', 'Gray', 'Grey', 'Hughes', 'Prince', 'Sanders', 'Long', 'Foster', 'Taylor', 'Lee', 'Thompson', 'Jackson', 'Clarke', 'Knight', 'Fletcher', 'Wheeler', 'Chapman', 'Baxter', 'Lister', 'Tait', 'Davies', 'Fitz', 'Shaw', 'Townsend', 'Hill', 'Stevenson', 'Davidson', 'Richards', 'Calder', 'Clifford', 'Brooks', 'Watson', 'Payne', 'Burton', 'McLean', 'Macleod', 'Banks', 'Hynd', 'Kerr', 'Murray', 'Simpson', 'Clark', 'Pearce', 'Evans', 'McCarthy', 'Henderson', 'Rose',  'Walls', 'Hart', 'O\'Neill', 'McGowan', 'Patterson', 'Combs', 'Ramsey', 'Norton', 'Norman', 'Atkins', 'Shepherd', 'Parsons', 'Thornton', 'Birch', 'Oak', 'Marshall', 'O\'Connor', 'Rowe', 'Gregory', 'Kennedy', 'O\'Donnell', 'Phillips', 'Specter', 'Pearson', 'Benjamin', 'Ritchie', 'Rettie', 'Armstrong', 'Jamieson', 'Gibson', 'Cunningham', 'McGregor', 'Hay', 'McNab', 'Samson', 'Hancock', 'Haynes', 'Waters', 'West', 'Todd', 'Lloyd', 'Archer', 'Dawson', 'O\'Sullivan', 'Barber', 'Jennings', 'Lane', 'Wilkins', 'Middleton', 'Barnett', 'Robson', 'Briggs', 'Whitehouse', 'Reeves', 'Carpenter', 'Griffin', 'Hope', 'Newman', 'Fitzgerald', 'May', 'Holden', 'Bruce', 'Gould', 'Holland', 'Woodward', 'Bell', 'Poole', 'Day', 'Bird', 'Skinner', 'Watts', 'Holmes', 'Thorpe', 'Saunders', 'Kemp', 'Spencer', 'Vaughn', 'Simmons', 'Dixon', 'Duncan', 'Hunter', 'Slater', 'Davison', 'Welch', 'Clements', 'Wilkinson', 'Heath', 'Farrell', 'Abbott', 'Dyer', 'Rahmam', 'Gallagher', 'O\'Brien', 'Rice', 'Bates', 'Gordon', 'Bryant', 'Bray', 'Peacock', 'Dodd', 'Hilton', 'Sims', 'Page', 'Winter', 'Harrison', 'Davey', 'Marsden', 'Jenkins', 'Wallace', 'Little', 'Hannah', 'Howell', 'Farmer', 'Austin', 'Bradshaw', 'Henry', 'Elliot', 'Sanderson', 'Benson', 'Weston', 'Peters', 'Hobbs', 'Iqbal', 'Barker', 'Williamson', 'Atkinson', "Hutchinson", 'Sharp', 'Swift', 'Coates', 'Burns', 'Tomlinson', 'Cole', 'Fuller', 'Lees', 'Potter', 'Howard', 'Nash', 'Lamb', 'Manning', 'Duffy', 'Parker', 'Wells', 'McKenzie', 'MacKenzie', 'Browne', 'Houghton', 'Bolton', 'Nicholls', 'Harding', 'Warner', 'Marsh', 'Stephenson', 'Mellor', 'Chadwick', 'Wall', 'Bond', 'Kelly', 'Owens', 'Yates', 'Holloway', 'Bailey', 'Hartley', 'Glover', 'Webb', 'Sutton', 'Pollard', 'Baldwin', 'Bennett', 'Kirby', 'Stanley', 'Smart', 'Pepper', 'McColl', 'Greene', 'Cruickshank', 'Cosgrove', 'Ramsay', 'McCluskey', 'Cassells', 'Hume', 'Gent', 'Stiles', 'Christie', 'McKinnon', 'Pringle', 'McNab', 'Stokes', 'Field', 'Patel', 'Ross', 'Donnelly', 'Lambert', 'Gibbons', 'Jordan', 'Freeman', 'Burrows', 'Jarvis', 'Lynch', 'Craig', 'Parkes', 'Doyle', 'Rhodes', 'Ferguson', 'Ashton', 'Wyatt', 'Rowley', 'Hunt', 'Law', 'Holden', 'Turnbull', 'Preston', 'Newton', 'Hargreaves', 'Berry', 'Lyons', 'Fry', 'Powell', 'Carr', 'Sharpe', 'Schofield', 'Hawkins', 'Knowles', 'Reynolds', 'Butcher', 'Osbourne', 'Crawford', 'Faulkner', 'Burke', 'Pickering', 'Flynn', 'Fleming', 'Vincent', 'Noble', 'Kaur', 'Kirk', 'Greenwood', 'Webster', 'Kent', 'Quin', 'Hyde', 'Parkinson', 'Graham', 'Gardiner', 'Sinclair', 'Metcalfe', 'Welche', 'Morton', 'Ellis', 'Hanson', 'Cartwright', 'Sheppard', 'Tucker', 'Short', 'Carter', 'Hurst', 'Hicks', 'Russell', 'Dickson', 'Stone', 'Bull', 'Matthews', 'Walton', 'Buckley', 'Finch', 'Khan', 'Brent', 'Fairley', 'Deans', 'Blyth', 'Morrison', 'McKee', 'Brock', 'Dunlop', 'Hardy', 'Ball', 'MeKenna', 'McKendrick','Roland', 'Devine', 'Pollock', 'Snow', 'Witcher', 'Glassford', 'Gillett', 'McKie', 'Purdie', 'Lucas', 'McGinty', 'Quinn', 'Blackburn', 'MacLachlan', 'MacKay', 'Fitzpatrick', 'Mills', 'Sweeney', 'Harte', 'Malik', 'McLennan', 'O\Connoll', 'Frost', 'Goodman', 'Nightingale', 'Moss', 'Bradford', 'MacInnes', 'Urban', 'Lowe', 'Whyte', 'Milne', 'MacNeil', 'McNeill', 'Flemming', 'Roberts', 'Fowler', 'McLaren', 'Clancy', 'Kim', 'Hogg', 'MacManus', 'Frankson', 'McCusker', 'Johnston', 'McPherson','Hodges', 'Ralston', 'MacGregor', 'Pettigrew', 'Hendry', 'Gilmour', 'Robins', 'Orr', 'Forrest', 'Sutherland', 'Lasky', 'Halsey', 'Thorne', 'Mendez', 'Ramos', 'Tanaka', 'Locke', 'Cutter',  'Keyes', 'Hood', 'Sullivan', 'Hendley', 'Vale', 'Demarco', 'Roland', 'Palmer', 'Vickers', 'Kellogg', 'Markle', 'Chang', 'Hooper', 'Park', 'Munro', 'McCormack', 'Doherty', 'Cavanagh', 'Gunn', 'Higgins', 'Curtis', 'Swan', 'Peck', 'Ahmed', 'Maxwell', 'Lennon', 'Barrett', 'Irvine', 'Dalgleish', 'McMillan', 'Somerville', 'Grierson', 'Malone', 'Dale', 'Cochran', 'McFarlane', 'Mann', 'McFazdean', 'Dean', 'Cox', 'Goodfellow', 'Whitmore', 'Muir', 'Hopkins', 'Dudley', 'Larson', 'MacRoberts', 'Langley', 'Muirhead', 'McDowell', 'MacAndrew', 'Ashford', 'Hamlin', 'McGill', 'Gately', 'Salmon', 'Harwood', 'Osborne', 'Wessing', 'Mason', 'MacFarlane', 'Hawthorn', 'Hemlock', 'Sycamore', 'Pine', 'Juniper', 'Elm', 'Whitebeam', 'Cedar', 'Aspen', 'Ash', 'Walnut', 'Willow', 'Cherry', 'Halford', 'Hardie', 'Smalls', 'Herd', 'Sterling', 'Lewin', 'Maguire', 'Watkins', 'Delaney', 'Poulson', 'Braithwaite', 'Christensan', 'Rafferty', 'Schwarz', 'Ketchum', 'Rowan', 'Brannigan', 'Rodríguez', 'Farnsworth', 'Conrad', 'Wong', 'Wernstrom', 'Nixon', 'Tate', 'McDougall', 'Abbett', 'Abrahams', 'Accord', 'Ackerman', 'Addington', 'Grimes', 'Colman', 'Siggard', 'Peletier', 'Morales', 'Jenner', 'Kutner', 'Foreman', 'Chase', 'Penn', 'Laurie', 'Jacoboson', 'Wilde', 'Dutton', 'McQueen', 'Durst', 'Alderson', 'Wellick', 'Cortez', 'Moss', 'Price', 'Goddard', 'Trenton', 'Goodwin', 'Reynolds', 'McIntyre', 'Healy', 'Patel', 'Flores', 'Nottingham', 'Whitaker', 'Walsh', 'Moreland', 'Fulton', 'Halpert', 'Vickers', 'Carell', 'Novak', 'Hannon', 'Sabre', 'Deluca', 'McKidd', 'Dempsey', 'Webber', 'Altman', 'Avery', 'Kepner', 'Riggs', 'Hahn', 'Chambers', 'Stevens', 'Robbins', 'Torres', 'Sloan', 'O\Malley', 'Schmitt', 'McDonnell', 'Spalding', 'Herrmann', 'Helm', 'Harper', 'Montgomery', 'Hutchison', 'Klein', 'Hutchins', 'Morgan', 'Kirkwood', 'Shelby', 'Solomans', 'Stark', 'Gold', 'Changretta', 'Bryne', 'Kimber', 'Boswell', 'Chaplin', 'MacMillan', 'Devlin', 'Strong', 'Fenton', 'McCumisky', 'McAnulty', 'Boyle', 'Maclean', 'Douglas', 'Donaldson', 'Santiago', 'Riley', 'Woods', 'MacTavish', 'Bowman', 'Booth', 'Coen', 'Foley', 'Valentia', 'Griggs', 'Ingram', 'Koopman', 'Markhov', 'McLaughlin', 'O\Leary', 'Ramirez', 'Rivers', 'Rutherford', 'Schmitt', 'Sumners', 'Marek', 'Wade', 'Weaver', "Knott", "Posner", "Zane", "Murdock", "Becker", "Hogarth", "Phelps", "Hoffman", "Meyer", "Wynn", "Stein", "Schmidt", "Daniels", "Firth", "Robinovitch", "Milton", "Ducksworth", "Finley", "Sweeny", "McShane", "Blackwood", "Potts", "Gardner", "Cheney", "Hawking", "Runne", "Donnell", "Whitehead"];
 
-// ANCHOR HEADING GENERATE NAME FUNCTIONS
-
-// Generate first name
-function getFirstName() {
-    return Math.floor(Math.random() * firstName.length);
-}
-
-// Generate Male Name
-function getMaleName() {
-    return Math.floor(Math.random() * maleName.length);
-}
-
-// Generate Female Name
-function getFemaleName() {
-    return Math.floor(Math.random() * femaleName.length);
-}
-
-// Generate Surname
-function getSurname() {
-    return Math.floor(Math.random() * surname.length);
-}
-
-// ANCHOR Variables for random names
-const generatedFirstName = getFirstName();
-
-const generatedSurname = getSurname();
-
 // ANCHOR Change text box value to display function result
 function generateName() {
-    document.getElementById("fullname").value = firstName[generatedFirstName] + " " + surname[generatedSurname];
+    getFirstName = Math.floor(Math.random() * firstName.length);
+    let generatedFirstName = firstName[getFirstName];
+    getSurname = Math.floor(Math.random() * surname.length);
+    let generatedSurname = surname[getSurname];
+    document.getElementById("fullname").value = generatedFirstName + " " + generatedSurname;
 }
-
-console.log("Number of first names: " + firstName.length); // Output = 621
-console.log("Number of surnames: " + surname.length); // Output = 685
-
-// ANCHOR NUMBERS
-
-// ANCHOR Test Number Generator
-function getRndInteger1(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
-
-function generateNumber1() {
-    document.getElementById('anothernumber').value = getRndInteger1(0,1000);
-}
-
-// ANCHOR Copy button - Numers
-
-function copynumber() {
-    var copyText = document.getElementById("anothernumber");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999)
-    document.execCommand("copy");
-  }
-
-// ANCHOR Copy button - Name
 
 function copyname() {
     var copyText = document.getElementById("fullname");
@@ -70,18 +22,21 @@ function copyname() {
     document.execCommand("copy");
   }
 
+// TODO NUMBERS
 
-// ANCHOR Number function
+function generateNumber() {
+    let RndInteger = Math.floor(Math.random() * 1000);
+    document.getElementById('generatedNumber').value = RndInteger;
+}
 
-// function getRndInteger(min, max) {
-//     return Math.floor(Math.random() * (max - min)) + min; 
-// }
+function copynumber() {
+    var copyText = document.getElementById("number");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+  }
 
-// function generateNumber() {
-//     document.getElementById('anothernumber').value = getRndInteger(0,10);
-// }
-
-// ANCHOR Password Generator
+// TODO Password Generator
 
 // 1, i, l, 0, o removed (incl. caps) to avoid confusion between each other
 
@@ -95,34 +50,10 @@ function generatePassword(length) {
    return result;
 }
 
-const password = generatePassword(12);
-console.log("Secure Password:" + password);
-
-// TODO APPLE PASSWORD TEST
-
-const password1 = generatePassword(5)
-const password2 = generatePassword(5)
-const password3 = generatePassword(5)
-
-const applePass = password1 + "-" + password2 + "-" + password3;
-console.log("Apple Stype Password:" + applePass);
-//console.log(password1 + "-" + password2 + "-" + password3)
-
-function assignApplePass() {
-    document.getElementById("generatedApplePass").value = applePass;
-}
-  
-function copyApplePass() {
-    var copyText = document.getElementById("generatedApplePass");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999)
-    document.execCommand("copy");
-}
-
-// TODO APPLE PASSWORD END
-
-function assignValue() {
-  document.getElementById("generatedPassword").value = password;
+function assignPassword() {
+    generatePassword(12);
+    const password1 = generatePassword(12)
+    document.getElementById("generatedPassword").value = password1;
 }
 
 function copypassword() {
@@ -132,13 +63,22 @@ function copypassword() {
     document.execCommand("copy");
 }
 
-// ANCHOR Dark/Light Mode
+// TODO APPLE PASSWORD TEST
 
-function changeDisplay() {
-    var element = document.body;
-    element.classList.toggle("light-mode")
+function assignApplePass() {
+    const password1 = generatePassword(5)
+    const password2 = generatePassword(5)
+    const password3 = generatePassword(5)
+    const applePass = password1 + "-" + password2 + "-" + password3;
+    document.getElementById("generatedApplePass").value = applePass;
 }
-
+  
+function copyApplePass() {
+    var copyText = document.getElementById("generatedApplePass");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
 
 // TODO Addresses
 
@@ -225,22 +165,18 @@ const town = ['Avon', 'Bedfordshire', 'Berkshire', 'Buckinghamshire', 'Cambridge
 function getNumber() {
     return Math.floor(Math.random() * number.length);
 }
-const generatedNumber = getNumber();
 
 function getStreetPrefix() {
     return Math.floor(Math.random() * streetPrefix.length);
 }
-const generatedStreetPrefix = getStreetPrefix();
 
 function getStreetName() {
     return Math.floor(Math.random() * streetName.length);
 }
-const generatedStreetName = getStreetName();
 
 function getTown() {
     return Math.floor(Math.random() * town.length);
 }
-const generatedTown = getTown();
 
 // Postcode functions
 function generatePostcode1(length) {
@@ -253,8 +189,6 @@ function generatePostcode1(length) {
    return result;
 }
 
-const generatedPostcode1 = generatePostcode1(2);
-
 function generatePostcode2(length) {
     var result           = '';
     var characters       = '0123456789';
@@ -265,15 +199,17 @@ function generatePostcode2(length) {
    return result;
 }
 
-const generatedPostcode2 = generatePostcode2(2);
-
-const generatedPostcode3 = generatePostcode2(1)
-const generatedPostcode4 = generatePostcode1(2)
-
-const fullPostcode = generatedPostcode1 + generatedPostcode2 + " " + generatedPostcode3 + generatedPostcode4;
-
 // Onlick function
 function assignAddress() {
+    const generatedNumber = getNumber();
+    const generatedStreetPrefix = getStreetPrefix();
+    const generatedStreetName = getStreetName();
+    const generatedTown = getTown();
+    const generatedPostcode1 = generatePostcode1(2);
+    const generatedPostcode2 = generatePostcode2(2);
+    const generatedPostcode3 = generatePostcode2(1)
+    const generatedPostcode4 = generatePostcode1(2)
+    const fullPostcode = generatedPostcode1 + generatedPostcode2 + " " + generatedPostcode3 + generatedPostcode4;
     document.getElementById("generatedAddress").value = number[generatedNumber] + " " + streetPrefix[generatedStreetPrefix] + " " + streetName[generatedStreetName] + ", " + town[generatedTown] + ", " + fullPostcode;
 }
 
