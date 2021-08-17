@@ -63,7 +63,7 @@ function copypassword() {
     document.execCommand("copy");
 }
 
-// TODO APPLE PASSWORD TEST
+// TODO Chained Password
 
 function assignApplePass() {
     const password1 = generatePassword(5)
@@ -80,7 +80,7 @@ function copyApplePass() {
     document.execCommand("copy");
 }
 
-// TODO Addresses
+// TODO Addresse Generator
 
 const number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
     18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
@@ -219,4 +219,24 @@ function copyAddress() {
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
+}
+
+// TODO Mobile Number Generator
+
+function generateMobileNumber(length) {
+    var result           = '';
+    var characters       = '0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   return result;
+}
+
+// const mobileNumber = "07" + generateMobileNumber(9);
+// console.log(mobileNumber);
+
+function assignMobile() {
+    const mobileNumber = "07" + generateMobileNumber(9);
+    document.getElementById("mobilenumber").value = mobileNumber;
 }
