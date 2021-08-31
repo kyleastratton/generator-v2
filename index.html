@@ -75,12 +75,47 @@
 
 </div>
 
+<div id="maincontainer" class="flex-container">
+        
+    <div class="flex-container">
+
+        <div class="sortcodecontainer">
+            <h2>Sort Code Generator</h2>
+            <div id="card3">
+                Sort Code: <input class="textarea" type="text" id="generatedSortCode" value="0"> <br><br>
+                <button class="button" onclick="assignSortCode()">Generate</button>
+                <button class="button" onclick="copySortCode()">Copy</button>
+            </div>
+        </div>
+        
+        <div class="accountnumbercontainer">
+            <h2>Account Number Generator</h1>
+            <div id="card4"> 
+                Account Number: <input class ="textarea" type="text" id="generatedAccountNumber" value="000000"> <br><br>
+                <button class="button" onclick="assignAccountNumber()">Generate</button>
+                <button class="button" onclick="copyAccountNumber()">Copy</button>
+            </div>
+        </div>
+    
+        <div class="bankcontainer">
+            <h2>Bank container</h1>
+            <div id="card4"> 
+                Bank: <input class ="textarea" type="text" id="generatedBankContainer" value="00000000"> <br><br>
+                <button class="button" onclick="generateBank()">Generate</button>
+                <button class="button" onclick="copyBank">Copy</button>
+            </div>
+        </div>  
+    </div>
+</div>
+
 </body>
 
-
+<!---
 <footer>
     <p id="footer-text">Created and designed by: Kyle Stratton</p>
 </footer>
+-->
+
 
 
 </html>

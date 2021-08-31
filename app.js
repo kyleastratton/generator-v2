@@ -240,3 +240,58 @@ function assignMobile() {
     const mobileNumber = "07" + generateMobileNumber(9);
     document.getElementById("mobilenumber").value = mobileNumber;
 }
+
+//TODO: Generate sort code
+
+function generateNumber(length) {
+    var result           = '';
+    var characters       = '1234567890';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   return result;
+}
+
+function assignSortCode() {
+    const sortcode1 = generateNumber(6)
+    document.getElementById("generatedSortCode").value = sortcode1;
+}
+
+function copySortCode() {
+    var copyText = document.getElementById("generatedSortCode");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
+
+//TODO: Generate account number
+
+function assignAccountNumber() {
+    const accountnumber1 = generateNumber(8)
+    document.getElementById("generatedAccountNumber").value = accountnumber1;
+}
+
+function copySortCode() {
+    var copyText = document.getElementById("generatedAccountNumber");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
+
+// TODO: Banks
+
+const banks = ['Bank of Scotland', 'Halifax', 'Lloyds', 'Royal Bank of Scotland', 'NatWest', 'HSBC', 'Barclays', 'Clydesdale', 'Virgin Money', 'Santander', 'Nationwide Building Society', 'Bank of Ireland', 'Metro Bank', 'TSB Bank', 'Starling', 'Monzo', 'Tide', 'Yorkshire Building Society', 'Bank of Ireland']
+
+function generateBank() {
+    getBanks = Math.floor(Math.random() * banks.length);
+    let generatedBank = banks[getBanks];
+    document.getElementById("generatedBankContainer").value = generatedBank;
+}
+
+function copyBank() {
+    var copyText = document.getElementById("generatedBankContainer");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+  }

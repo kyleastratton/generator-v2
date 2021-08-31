@@ -107,6 +107,36 @@ h2 {
   width: 500px;
 }
 
+.sortcodecontainer {
+  border: solid #edf5e1;
+  background-color: #11121d;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  height: 200px;
+  width: 500px;
+}
+
+.accountnumbercontainer {
+  border: solid #edf5e1;
+  background-color: #11121d;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  height: 200px;
+  width: 500px;
+}
+
+.bankcontainer {
+  border: solid #edf5e1;
+  background-color: #11121d;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  height: 200px;
+  width: 500px;
+}
+
 .button {
   background-color: #e53265;
   border: none;
