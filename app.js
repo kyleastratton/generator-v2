@@ -24,7 +24,7 @@ function copyname() {
 
 // TODO NUMBERS
 
-function generateNumber() {
+function generateRandomNumber() {
     let RndInteger = Math.floor(Math.random() * 1000);
     document.getElementById('generatedNumber').value = RndInteger;
 }
