@@ -3,9 +3,13 @@ body {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  overflow: hidden;
-  overflow-y: scroll;
-  overflow-x: scroll;
+  /*overflow: auto;
+  overflow-y: hidden;
+  overflow-x: scroll;*/
+}
+
+P {
+  padding: 5px;
 }
 
 h1 {
@@ -27,22 +31,18 @@ h2 {
   background-color: #ece7e7;
   font-family: Arial, Helvetica, sans-serif;
   width: 300px;
-  /*
-  word-wrap: break-word;
-  word-break: break-all;*/
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   padding: 2%;
   align-content: center;
-  justify-content: space-between;
-  /*border: solid white 2px;
-  border-radius: 10px;*/
-  height: 200px;
-  overflow-y: scroll;
+  justify-content: space-around;
+  height: auto;
+  overflow-y: auto;
   /*overflow-x: scroll;*/
 }
 
@@ -52,8 +52,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px; 
-  width: 500px;
+  height: 160px; 
+  width: 460px;
 }
 
 .numbercontainer {
@@ -62,8 +62,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px; 
-  width: 500px;
+  height: 160px; 
+  width: 460px;
 }
 
 .passwordcontainer {
@@ -72,8 +72,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px; 
-  width: 500px;
+  height: 160px; 
+  width: 460px;
 }
 
 .addresscontainer {
@@ -82,8 +82,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px;
-  width: 500px;
+  height: 160px;
+  width: 460px;
 }
 
 .applepasscontainer {
@@ -92,8 +92,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px;
-  width: 500px;
+  height: 160px;
+  width: 460px;
 }
 
 .mobilenumber {
@@ -102,8 +102,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px;
-  width: 500px;
+  height: 160px;
+  width: 460px;
 }
 
 .sortcodecontainer {
@@ -112,8 +112,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px;
-  width: 500px;
+  height: 160px;
+  width: 460px;
 }
 
 .accountnumbercontainer {
@@ -122,8 +122,8 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px;
-  width: 500px;
+  height: 160px;
+  width: 460px;
 }
 
 .bankcontainer {
@@ -132,9 +132,11 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   text-align: center;
-  height: 200px;
-  width: 500px;
+  height: 160px;
+  width: 460px;
 }
+
+/* Button */
 
 .button {
   background-color: #09233c;
@@ -150,10 +152,6 @@ h2 {
 
 .button:active {
   background-color: #ffc600;
-}
-
-P {
-  padding: 5px;
 }
 
 /* Footer */
