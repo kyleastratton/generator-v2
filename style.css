@@ -1,15 +1,15 @@
 body {
-  background-color: #f2f2f2;
-  color: #edf5e1;
-  font-family: Roboto Condensed;
-  font-size: 16px;
+  background-color: #002d4f;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
   overflow: hidden;
   overflow-y: scroll;
   overflow-x: scroll;
 }
 
 h1 {
-  color: #000;
+  color: #00caf4;
   padding: 4px;
 }
 
@@ -25,7 +25,7 @@ h2 {
 .textarea {
   padding: 5px;
   background-color: #ece7e7;
-  font-family: Roboto Condensed;
+  font-family: Arial, Helvetica, sans-serif;
   width: 300px;
   /*
   word-wrap: break-word;
@@ -47,8 +47,8 @@ h2 {
 }
 
 .namecontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -57,8 +57,8 @@ h2 {
 }
 
 .numbercontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -67,8 +67,8 @@ h2 {
 }
 
 .passwordcontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -77,8 +77,8 @@ h2 {
 }
 
 .addresscontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -87,8 +87,8 @@ h2 {
 }
 
 .applepasscontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -97,8 +97,8 @@ h2 {
 }
 
 .mobilenumber {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -107,8 +107,8 @@ h2 {
 }
 
 .sortcodecontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -117,8 +117,8 @@ h2 {
 }
 
 .accountnumbercontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -127,8 +127,8 @@ h2 {
 }
 
 .bankcontainer {
-  border: solid #edf5e1;
-  background-color: #11121d;
+  border: solid #ece7e7;
+  background-color: #09233c;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
@@ -137,8 +137,8 @@ h2 {
 }
 
 .button {
-  background-color: #e53265;
-  border: none;
+  background-color: #09233c;
+  border:solid #ffc600;
   color: white;
   padding: 8px 16px;
   text-align: center;
@@ -149,7 +149,7 @@ h2 {
 }
 
 .button:active {
-  background-color: gray;
+  background-color: #ffc600;
 }
 
 P {
