@@ -281,7 +281,7 @@ function copySortCode() {
 
 // TODO: Banks
 
-const banks = ['Bank of Scotland', 'Halifax', 'Lloyds', 'Royal Bank of Scotland', 'NatWest', 'HSBC', 'Barclays', 'Clydesdale', 'Virgin Money', 'Santander', 'Nationwide Building Society', 'Bank of Ireland', 'Metro Bank', 'TSB Bank', 'Starling', 'Monzo', 'Tide', 'Yorkshire Building Society', 'Bank of Ireland']
+const banks = ['Bank of Scotland', 'Halifax', 'Lloyds', 'Royal Bank of Scotland', 'NatWest', 'HSBC', 'Barclays', 'Clydesdale', 'Virgin Money', 'Santander', 'Nationwide Building Society', 'Bank of Ireland', 'Metro Bank', 'TSB Bank', 'Starling', 'Monzo', 'Tide', 'Yorkshire Building Society', 'Bank of Ireland', 'Accord Mortgages', 'First Direct', 'Sainsbury\'s Bank', 'Scottish Building Society', 'Tesco Bank', 'The Co-operative Bank', 'Couttes & Co', 'Coventry Building Society', 'M&S Bank', 'Aldermore', 'Atom Bank', 'Skipton Building Society', 'The Post Office', 'L&C', 'Leeds Building Society', 'Newcastle Building Society', 'Danske Bank', 'Coventry Building Society', 'Investec Specialist Bank', 'Masthaven Bank', 'Shawbrook Bank', 'Handelsbanken']
 
 function generateBank() {
     getBanks = Math.floor(Math.random() * banks.length);

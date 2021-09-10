@@ -1,5 +1,5 @@
 body {
-  background-color: #002d4f;
+  background-color: #181a1b;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -13,7 +13,7 @@ P {
 }
 
 h1 {
-  color: #00caf4;
+  color: #fff;
   padding: 4px;
 }
 
@@ -31,6 +31,7 @@ h2 {
   background-color: #ece7e7;
   font-family: Arial, Helvetica, sans-serif;
   width: 300px;
+  border: none;
 }
 
 .flex-container {
@@ -46,103 +47,25 @@ h2 {
   /*overflow-x: scroll;*/
 }
 
-.namecontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
+.container {
+  /*border: solid #ece7e7;*/
+  background-color: #232628;
   border-radius: 10px;
   padding: 5px;
+  margin: 2px;
   text-align: center;
   height: 160px; 
-  width: 460px;
-}
-
-.numbercontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px; 
-  width: 460px;
-}
-
-.passwordcontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px; 
-  width: 460px;
-}
-
-.addresscontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px;
-  width: 460px;
-}
-
-.applepasscontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px;
-  width: 460px;
-}
-
-.mobilenumber {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px;
-  width: 460px;
-}
-
-.sortcodecontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px;
-  width: 460px;
-}
-
-.accountnumbercontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px;
-  width: 460px;
-}
-
-.bankcontainer {
-  border: solid #ece7e7;
-  background-color: #09233c;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  height: 160px;
   width: 460px;
 }
 
 /* Button */
 
 .button {
-  background-color: #09233c;
+  background-color: #232628;
   border:solid #ffc600;
+  border-radius: 10px;
   color: white;
-  padding: 8px 16px;
+  padding: 6px 14px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
