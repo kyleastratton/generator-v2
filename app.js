@@ -29,8 +29,8 @@ function generateRandomNumber() {
     document.getElementById('generatedNumber').value = RndInteger;
 }
 
-function copynumber() {
-    var copyText = document.getElementById("number");
+function copyNumber() {
+    var copyText = document.getElementById("generatedNumber");
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
@@ -241,6 +241,13 @@ function assignMobile() {
     document.getElementById("mobilenumber").value = mobileNumber;
 }
 
+function copyMobileNumber() {
+    var copyText = document.getElementById("mobilenumber");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
+
 //TODO: Generate sort code
 
 function generateNumber(length) {
@@ -272,7 +279,7 @@ function assignAccountNumber() {
     document.getElementById("generatedAccountNumber").value = accountnumber1;
 }
 
-function copySortCode() {
+function copyAccountNumber() {
     var copyText = document.getElementById("generatedAccountNumber");
     copyText.select();
     copyText.setSelectionRange(0, 99999)
