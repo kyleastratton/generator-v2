@@ -179,7 +179,7 @@ function getTown() {
 }
 
 // Postcode functions
-function generatePostcode1(length) {
+function generateCharacter(length) {
     var result           = '';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var charactersLength = characters.length;
@@ -189,7 +189,7 @@ function generatePostcode1(length) {
    return result;
 }
 
-function generatePostcode2(length) {
+function generateNumber(length) {
     var result           = '';
     var characters       = '0123456789';
     var charactersLength = characters.length;
@@ -205,10 +205,10 @@ function assignAddress() {
     const generatedStreetPrefix = getStreetPrefix();
     const generatedStreetName = getStreetName();
     const generatedTown = getTown();
-    const generatedPostcode1 = generatePostcode1(2);
-    const generatedPostcode2 = generatePostcode2(2);
-    const generatedPostcode3 = generatePostcode2(1)
-    const generatedPostcode4 = generatePostcode1(2)
+    const generatedPostcode1 = generateCharacter(2);
+    const generatedPostcode2 = generateNumber(2);
+    const generatedPostcode3 = generateNumber(1)
+    const generatedPostcode4 = generateCharacter(2)
     const fullPostcode = generatedPostcode1 + generatedPostcode2 + " " + generatedPostcode3 + generatedPostcode4;
     document.getElementById("generatedAddress").value = number[generatedNumber] + " " + streetPrefix[generatedStreetPrefix] + " " + streetName[generatedStreetName] + ", " + town[generatedTown] + ", " + fullPostcode;
 }
@@ -223,21 +223,8 @@ function copyAddress() {
 
 // TODO Mobile Number Generator
 
-function generateMobileNumber(length) {
-    var result           = '';
-    var characters       = '0123456789';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * charactersLength));
-   }
-   return result;
-}
-
-// const mobileNumber = "07" + generateMobileNumber(9);
-// console.log(mobileNumber);
-
 function assignMobile() {
-    const mobileNumber = "07" + generateMobileNumber(9);
+    const mobileNumber = "07" + generateNumber(9);
     document.getElementById("mobilenumber").value = mobileNumber;
 }
 
@@ -249,16 +236,6 @@ function copyMobileNumber() {
 }
 
 //TODO: Generate sort code
-
-function generateNumber(length) {
-    var result           = '';
-    var characters       = '1234567890';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * charactersLength));
-   }
-   return result;
-}
 
 function assignSortCode() {
     const sortcode1 = generateNumber(6)
