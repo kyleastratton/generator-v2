@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a192f" >
+    <meta name="apple-mobile-web-app-title" content="Generator" >
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" >
+    <meta name="mobile-web-app-capable" content="yes" >
     <title>Generator</title>
     <link rel="stylesheet" href="style.css" />  
+    <link rel="icon" type="image/png" href="./favicon/favicon.png">
 </head>
 <body>
 
@@ -32,25 +37,6 @@
             <button class="button" onclick="copyAddress()">Copy</button>
         </div>
     </div>
-
-
-    <div class="container">
-        <h2>Number Generator</h2>
-        <div id="card2">
-            <input class="textarea" type="text" id="generatedNumber" value="0"> <br><br>
-            <button class="button" onclick="generateRandomNumber()">Generate</button>
-            <button class="button" onclick="copyNumber()">Copy</button>
-        </div>    
-    </div>
-
-    <div class="container">
-        <h2>Secure Password Generator</h2>
-        <div id="card3">
-            <input class="textarea" type="text" id="generatedPassword" value="0"> <br><br>
-            <button class="button" onclick="assignPassword()">Generate</button>
-            <button class="button" onclick="copypassword()">Copy</button>
-        </div>
-    </div>
     
     <div class="container">
         <h2>Apple Style Password Generator</h2>
@@ -62,21 +48,39 @@
     </div>
 
     <div class="container">
-        <h2>Mobile Number</h2>
+        <h2>Secure Password Generator</h2>
+        <div id="card3">
+            <input class="textarea" type="text" id="generatedPassword" value="0"> <br><br>
+            <button class="button" onclick="assignPassword()">Generate</button>
+            <button class="button" onclick="copypassword()">Copy</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Mobile Number Generator</h2>
         <div id="card4"> 
             <input class ="textarea" type="text" id="mobilenumber" value="07123456789"> <br><br>
             <button class="button" onclick="assignMobile()">Generate</button>
             <button class="button" onclick="copyMobileNumber()">Copy</button>
         </div>
-    </div>    
+    </div>  
 
     <div class="container">
-        <h2>Sort Code Generator</h2>
-        <div id="card3">
-            <input class="textarea" type="text" id="generatedSortCode" value="000000"> <br><br>
-            <button class="button" onclick="assignSortCode()">Generate</button>
-            <button class="button" onclick="copySortCode()">Copy</button>
+        <h2>Bank Generator</h2>
+        <div id="card4"> 
+            <input class ="textarea" type="text" id="generatedBankContainer" value="Bank Name"> <br><br>
+            <button class="button" onclick="generateBank()">Generate</button>
+            <button class="button" onclick="copyBank()">Copy</button>
         </div>
+    </div> 
+
+    <div class="container">
+        <h2>Number Generator</h2>
+        <div id="card2">
+            <input class="textarea" type="text" id="generatedNumber" value="0"> <br><br>
+            <button class="button" onclick="generateRandomNumber()">Generate</button>
+            <button class="button" onclick="copyNumber()">Copy</button>
+        </div>    
     </div>
     
     <div class="container">
@@ -89,20 +93,20 @@
     </div>
 
     <div class="container">
-        <h2>Bank container</h2>
-        <div id="card4"> 
-            <input class ="textarea" type="text" id="generatedBankContainer" value="Bank Name"> <br><br>
-            <button class="button" onclick="generateBank()">Generate</button>
-            <button class="button" onclick="copyBank()">Copy</button>
+        <h2>Sort Code Generator</h2>
+        <div id="card3">
+            <input class="textarea" type="text" id="generatedSortCode" value="000000"> <br><br>
+            <button class="button" onclick="assignSortCode()">Generate</button>
+            <button class="button" onclick="copySortCode()">Copy</button>
         </div>
-    </div>  
+    </div> 
 
     <div class="container">
         <h2>IBAN Generator</h2>
         <div id="card3">
             <input class="textarea" type="text" id="iban" value="GB12ABCD12340123456789"> <br><br>
-            <button class="button">Generate</button>
-            <button class="button">Copy</button>
+            <button class="button" onclick="generateIban()">Generate</button>
+            <button class="button" onclick="copyIban()">Copy</button>
         </div>
     </div>
     
@@ -110,8 +114,8 @@
         <h2>Swift Code Generator</h2>
         <div id="card4"> 
             <input class ="textarea" type="text" id="swiftCode" value="ABCDGB123EF"> <br><br>
-            <button class="button">Generate</button>
-            <button class="button">Copy</button>
+            <button class="button" onclick="generateSwift()">Generate</button>
+            <button class="button" onclick="copySwift()">Copy</button>
         </div>
     </div>
 
@@ -123,7 +127,19 @@
             <button class="button">Copy</button>
         </div>
     </div>  
+
 </div>
+
+<div class="flex-container">
+
+    <div class="large-container">
+        <h2>VAT</h2>
+        <div>
+            <input class ="textarea" type="text" id="" value="Coming Soon">
+        </div>
+    </div>
+
+</div>    
 
 </body>
 
