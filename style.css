@@ -1,8 +1,10 @@
 body {
   background-color: #0a192f;
-  color: #E9EAED;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #e9eaed;
+  font-family: Roboto;
   font-size: 12px;
+  width: 99%;
+  align-content: center;
   /*overflow: auto;
   overflow-y: hidden;
   overflow-x: scroll;*/
@@ -13,27 +15,34 @@ P {
 }
 
 h1 {
-  color: #E9EAED;
+  color: #e9eaed;
   padding: 4px;
 }
 
 h2 {
-  color:#E9EAED;
+  color: #fff;
+  font-weight: bold;
 }
 
 #title {
-  text-align-last: center;
+  text-align: center;
+  width: 100%;
   display: block;
+}
+
+input {
+  text-align: center;
 }
 
 .textarea {
   padding: 5px;
-  background-color: #E9EAED;
+  background-color: #e9eaed;
   color: #000;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-family: Roboto;
+  font-size: 15px;
   width: 300px;
   border: none;
+  border-radius: 20px;
 }
 
 .flex-container {
@@ -56,9 +65,9 @@ h2 {
   padding: 4px;
   margin: 4px -10px 20px -10px;
   text-align: center;
-  height: 160px; 
-  width: 520px;
-  box-shadow: 4px 4px #00ffd2;
+  height: 160px;
+  width: 450px; /*was 520px - reduced to show more on vp*/
+  /*box-shadow: 4px 4px #00ffd2;*/
 }
 
 .large-container {
@@ -67,28 +76,30 @@ h2 {
   padding: 4px;
   margin: -20px;
   text-align: center;
-  height: 160px; 
+  height: 160px;
   width: 1700px;
-  box-shadow: 4px 4px #00ffd2;
+  /*box-shadow: 4px 4px #00ffd2;*/
 }
 
 /* Button */
 
 .button {
-  background-color: #172a46;
-  border: solid #ffc600;
+  background-color: #0096cc; /*f9aa33*/
+  border: solid #0096cc;
   border-radius: 10px;
-  color: white;
+  color: #fff;
   padding: 6px 14px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size:14px;
+  font-size: 14px;
   margin: 8px;
 }
 
 .button:active {
-  background-color: #ffc600;
+  background-color: #172a46;
+  color: #fff;
+  border: solid #172a46;
 }
 
 /* Footer */
@@ -99,10 +110,10 @@ h2 {
 }
 
 footer {
-  display:block;
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:60px; 
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   clear: both;
 }
