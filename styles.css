@@ -1,0 +1,134 @@
+body {
+  /*background-color: #f3f2f8;*/
+  background-color: #fff;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  width: 100vw;
+  height: 100vw;
+  min-width: 345;
+  max-width: 1920;
+  align-content: center;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+p {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Containers */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px;
+  justify-content: space-around;
+  height: auto;
+  width: 100vw;
+  overflow-y: auto;
+  /*overflow-x: scroll;*/
+}
+
+.container {
+  background-color: #ffffff;
+  /*border-radius: 10px;*/
+  border-radius: 0.25rem;
+  padding: 1px;
+  margin: 4px 4px 20px -25px;
+  text-align: center;
+  height: 170px;
+  width: 30%; /*28%*/
+  min-width: 320px;
+  /*box-shadow: 4px 4px #00ffd2;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.large-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+  /*margin: -20px;*/
+  margin: 20px 4px 4px -25px;
+  text-align: center;
+  height: 160px;
+  width: 1800px;
+  /*box-shadow: 4px 4px #00ffd2;*/
+}
+
+/* NAVBAR */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  background-color: #03a9f4;
+  color: #fff;
+  overflow: hidden;
+  width: 100vw;
+  margin: -10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 2px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #03a9f4;
+  color: #333;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #03a9f4;
+  color: #fff;
+  border-bottom: solid 2px #fff;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin: 10px 50px 0px 0px;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
